@@ -1,4 +1,4 @@
-# CCC-Solutions
+# CCC Solutions
 
 Canadian Computing Competition solutions in basic Python.
 
