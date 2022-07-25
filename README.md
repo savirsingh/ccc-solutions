@@ -1,7 +1,7 @@
 # CCC Solutions
 
-Canadian Computing Competition solutions in Python and some Java.
+Canadian Computing Competition solutions in Python and Java.
 
-Trying to add more Java code because it's faster and the CCC has time limits.
+Currently using more Java code because it's faster and the CCC has time limits.
 
 email kopichiki@gmail.com if you have any questions.
