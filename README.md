@@ -8,3 +8,5 @@ I've written some solutions in C++/Java just in case they have low time limits (
 My DMOJ username is savirsingh and I am one of the top 500 people on the site.
 
 Email kopichiki@gmail.com if you have any questions.
+
+Join my CS Discord server - https://discord.gg/W7ZhPQ2fTb
