@@ -1,3 +1,5 @@
+# code by savir singh
+
 word = input()
 word = 'A'+word+'e'
 key_array = ['ABCDEF','GHIJKL','MNOPQR','STUVWX','YZ -.e']
