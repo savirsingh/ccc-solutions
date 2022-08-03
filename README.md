@@ -14,3 +14,5 @@ Join my CS Discord server - https://discord.gg/W7ZhPQ2fTb
 You can find all of these problems at https://dmoj.ca or https://cemc.uwaterloo.ca
 
 The CCC can be difficult for a lot of people, but continue practicing and you might even be able to achieve a perfect score.
+
+Note: I generally stuff my code with loops, so it may be inefficient :/
