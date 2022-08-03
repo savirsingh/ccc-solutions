@@ -10,5 +10,4 @@ for index, x in enumerate(statement):
         statement[index] = " loosen "
         statement.insert(index+2, "\n")
 
-for state in statement:
-    print(state, end='')
+    print(statement[index], end='')
