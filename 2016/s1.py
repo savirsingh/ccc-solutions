@@ -16,16 +16,23 @@ asterisks = anagram.count("*")
 ana2 = list(anagram)
 n2 = list(n)
 
-for j in range(asterisks):
-    asindex = ana2.index('*')
-    newspot = ana2[asindex-1]
-    nindex = n.index(newspot)
-    nstring = n2[nindex-1]
-    ana2.insert(asindex, nstring)
-    ana2.remove('*')
-    anagram = str(ana2).replace('[','').replace(']', '').replace("'", "").replace(',', '').replace(' ', '')
+if "*" not in anagram:
+    if checker(n, anagram):
+        print("A")
+    else:
+        print("N")
 
-if checker(n, anagram):
-    print("A")
 else:
-    print("N")
+    ana1 = list(anagram)
+    while '*' in ana1:
+        ana1.remove('*')
+    yescount = 0
+    for j in range(len(ana1)):
+        if str(ana1[j]) in n:
+            yescount += 1
+        else:
+            break
+    if yescount == len(ana1) and len(ana1) + anagram.count("*") == len(n):
+        print("A")
+    else:
+        print("N")
