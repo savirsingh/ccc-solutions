@@ -1,6 +1,6 @@
 // code by savir singh
 
-// faster than s2.py but still returns TLE...
+// returns TLE... idek why
 // 12/15 points
 
 #include <bits/stdc++.h>
