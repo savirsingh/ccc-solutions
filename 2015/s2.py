@@ -2,7 +2,7 @@
 
 # returns TLE cuz Python is slowwwww
 # code works fully though
-# 9/15 points
+# 12/15 points
 
 j = int(input())
 a = int(input())
