@@ -1,6 +1,7 @@
 // code by savir singh
 
 // faster than s2.py but still returns TLE...
+// 12/15 points
 
 #include <bits/stdc++.h>
 using namespace std;
