@@ -1,4 +1,5 @@
 # code by savir singh
+# 13/15 marks
 
 statement = list(input())
 
