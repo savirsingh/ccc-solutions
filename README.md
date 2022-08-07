@@ -53,7 +53,7 @@ Note: I generally stuff my code with loops, so it may be inefficient :/
 - CCC '06 Junior: 45/75
 - CCC '06 Senior: None
 - CCC '05 Junior: 60/75
-- CCC '05 Senior: 15/75
+- CCC '05 Senior: 30/75
 - CCC '04 Junior: 45/75
 - CCC '04 Senior: 15/75
 - CCC '03 Junior: 30/75
