@@ -22,8 +22,7 @@ for i in range(len(sw)):
     if sws == ses and count == len(swifts):
         days = len(swifts)
     elif sws == ses and count != len(swifts):
-        days = swifts.index(swifts[i])+1
+        days = i+1
 
     
 print(days)
-
