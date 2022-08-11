@@ -26,7 +26,7 @@ Note: I generally stuff my code with loops, so it may be inefficient :/
 - CCC '20 Senior: 15/75
 - CCC '19 Junior: None
 - CCC '19 Senior: 30/75
-- CCC '18 Junior: None
+- CCC '18 Junior: 30/75
 - CCC '18 Senior: 15/75
 - CCC '17 Junior: 45/75
 - CCC '17 Senior: 45/75
