@@ -23,7 +23,7 @@ Note: I generally stuff my code with loops, so it may be inefficient :/
 - CCC '21 Junior: 60/75
 - CCC '21 Senior: 15/75
 - CCC '20 Junior: 30/75
-- CCC '20 Senior: 15/75
+- CCC '20 Senior: 22/75
 - CCC '19 Junior: None
 - CCC '19 Senior: 30/75
 - CCC '18 Junior: 60/75
