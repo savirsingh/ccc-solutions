@@ -1,4 +1,6 @@
 # code by savir singh
+# obviously TLE - 3/15 points
+# might redo in C++ or something later
 
 from itertools import permutations
 
