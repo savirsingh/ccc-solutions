@@ -1,6 +1,5 @@
 # code by savir singh
-# gives TLE - look at C++ Solution
-# 7/15
+# 15/15 points
 
 n = int(input())
 times = []
@@ -14,19 +13,13 @@ for i in range(n):
     times.append(a[0])
     distances.append(a[1])
 
-for j in range(n):
-    mintime = min(times)
-    tindex = times.index(mintime)
-    thedis = distances[tindex]
-    sortedtimes.append(mintime)
-    sorteddistances.append(thedis)
-    del times[tindex]
-    del distances[tindex]
+sortedtimes, sorteddistances = zip(*sorted(zip(times, distances)))
 
-for k in range(n-1):
-    disdiff = abs(sorteddistances[k+1]-sorteddistances[k])
-    timediff = abs(sortedtimes[k+1]-sortedtimes[k])
+for j in range(n-1):
+    disdiff = abs(sorteddistances[j+1]-sorteddistances[j])
+    timediff = abs(sortedtimes[j+1]-sortedtimes[j])
     difference = float(disdiff/timediff)
     speeds.append(difference)
 
 print(max(speeds))
+
