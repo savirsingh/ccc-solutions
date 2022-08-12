@@ -17,6 +17,8 @@ The CCC can be difficult for a lot of people, but continue practicing and you mi
 
 Note: I generally stuff my code with loops, so it may be inefficient :/
 
+I hate time limits, and using Python doesn't help-
+
 ### Problem Marks So Far (I haven't completed most questions yet):
 - CCC '22 Junior: 43/75
 - CCC '22 Senior: 15/75
