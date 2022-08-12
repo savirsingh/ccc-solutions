@@ -1,6 +1,6 @@
 # CCC Solutions
 
-Canadian Computing Competition solutions in Python, C++, and Java.
+Canadian Computing Competition solutions in Python, C++, and Java (okay, not that much Java or C++).
 
 I'm most comfortable with Python.
 I've written some solutions in C++/Java just in case they have low time limits (C++ is faster than Java which is faster than Python).
