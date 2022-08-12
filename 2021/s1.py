@@ -1,4 +1,5 @@
 # code by savir singh
+# 15/15
 
 n = int(input())
 heights = list(map(float, input().split(" ")))
