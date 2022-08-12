@@ -14,18 +14,14 @@ for i in range(n):
     times.append(a[0])
     distances.append(a[1])
 
-t1 = times.copy()
-d1 = distances.copy()
-
 for j in range(n):
-    mintime = min(t1)
-    tindex = t1.index(mintime)
-    thedis = d1[tindex]
+    mintime = min(times)
+    tindex = times.index(mintime)
+    thedis = distances[tindex]
     sortedtimes.append(mintime)
     sorteddistances.append(thedis)
-    del t1[tindex]
-    del d1[tindex]
-
+    del times[tindex]
+    del distances[tindex]
 
 for k in range(n-1):
     disdiff = abs(sorteddistances[k+1]-sorteddistances[k])
