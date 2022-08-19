@@ -1,5 +1,9 @@
 # code by savir singh
-# 15/15- brute force & mathematical algorithm
+# 15/15 - brute force & mathematical algorithm
+
+# this question may look hard when you first look at it.
+# but i was easily able to solve it after discovering that
+# there are 31 arithmetic sequences in 12 hours/720 minutes.
 
 def func1(duration):
     times = []
