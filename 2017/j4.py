@@ -1,3 +1,6 @@
+# code by savir singh
+# 15/15- brute force & mathematical algorithm
+
 def func1(duration):
     times = []
     timee = 0
