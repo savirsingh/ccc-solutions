@@ -60,7 +60,7 @@ I hate time limits, and using Python doesn't help-
 - CCC '04 Senior: 15/75
 - CCC '03 Junior: 30/75
 - CCC '03 Senior: None
-- CCC '02 Junior: 15/75
+- CCC '02 Junior: 30/75
 - CCC '02 Senior: None
 
 Please note that the majority of these problems were not solved in a competitive environment.
