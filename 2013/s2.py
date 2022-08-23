@@ -1,5 +1,5 @@
 # code by savir singh
-# 6/15 with TLE on cccgrader.com
+# 6/15 with TLE & WA on cccgrader.com
 
 # max weight
 max_weight = int(input())
