@@ -1,45 +1,27 @@
 # code by savir singh
-# TLE - gives 1/15 (ik it's bad)
-# check c++ solution
+# 15/15 on DMOJ & CCC Grader
 
-# take in input and initialize n, t, 
-# initial, and new
 in1 = list(map(int, input().split(" ")))
 n = in1[0]
 t = in1[1]
-initial = list(map(int, list(input())))
-new = initial.copy()
+line = input()
 
-# loop through t times
-for _ in range(t):
-    # loop through n times
-    for i in range(n):
-        # handle if i=0
-        if i == 0:
-            if initial[-1] == 1 and initial[1] != 1:
-                new[0] = 1
-            elif initial[-1] != 1 and initial[1] == 1:
-                new[0] = 1
-            else:
-                new[0] = 0
-        # handle if i=n-1
-        if i == n-1:
-            if initial[0] == 1 and initial[n-2] != 1:
-                new[-1] = 1
-            elif initial[0] != 1 and initial[n-2] == 1:
-                new[-1] = 1
-            else:
-                new[-1] = 0
-        # otherwise...
-        else:
-            if initial[i+1] == 1 and initial[i-1] != 1:
-                new[i] = 1
-            elif initial[i-1] == 1 and initial[i+1] != 1:
-                new[i] = 1
-            else:
-                new[i] = 0
-    # change initial to a copy of new every time
-    initial = new.copy()
+split = list(reversed(bin(t)[2:]))
 
-# output new at the end
-print(''.join(list(map(str, new))))
+def xor(s1, s2):
+  out = []
+  for c1, c2 in zip(s1, s2):
+    if c1 != c2:
+      out.append('1')
+    else:
+      out.append('0')
+  return ''.join(out)
+
+for i in range(len(split)):
+  if split[i] == '1':
+    k = 2 ** i
+    left_shift = line[k % len(line):] + line[:k % len(line)]
+    right_shift = line[-k % len(line):] + line[:-k % len(line)]
+    line = xor(left_shift, right_shift)
+
+print(line)
