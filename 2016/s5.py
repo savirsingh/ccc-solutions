@@ -1,4 +1,6 @@
 # code by savir singh
+# TLE - gives 1/15 (ik it's bad)
+# check c++ solution
 
 # take in input and initialize n, t, 
 # initial, and new
