@@ -1,38 +1,29 @@
 # code by savir singh
+# 15/15 on DMOJ & CCC Grader
 
-numberoftimes = int(input())
-prime = 0
-diffnumber = 0
-outputlist = []
-
-def isprime(num):
-    if num != 1:
-        for n in range(2,int(num**0.5)+1):
-            if num%n==0:
-                return False
-        return True
-    else:
+# check if prime
+def checkprime(num):
+    if num==1:
         return False
+    if num==0:
+        return False
+    for z in range(2, int(num**0.5)+1):
+        if (num%z) == 0:
+            return False
+    return True
 
-for i in range(numberoftimes):
-        
-    number = int(input())
-    for j in range(number-1):
-        if isprime(number+j) == True and isprime(number-j) == True:
-            diffnumber = number+j
+# no. of test cases
+t = int(input())
+
+# loop through and begin the magic!
+for i in range(t):
+    n = int(input())
+    a = n+1
+    b = n-1
+    while True:
+        if checkprime(a) and checkprime(b):
+            print(b, a)
             break
-
-    outputlist.append(diffnumber)
-    if diffnumber > number:
-        diffnumber = diffnumber-number
-        outputlist.append(number-diffnumber)
-    else:
-        diffnumber = number-diffnumber
-        outputlist.append(number+diffnumber)
-
-for i in range(int(len(outputlist)/2)):
-    print(str(outputlist[i]) + " " + str(outputlist[i+1]))
-    outputlist.remove(outputlist[i])
-
-
-
+        a+=1
+        b-=1
+    
