@@ -1,41 +1,25 @@
 // code by savir singh
 
-import java.util.Scanner;
-
-public class j1 {
-    public static void main(String[] args) {
-
-		Scanner sc = new Scanner(System.in);
-        int x = sc.nextInt();
-        int y = 0;
-
-        if (x==100) {
-            y = 1;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+public class Solve {
+    public static void main(String[] args)
+        throws IOException
+    {
+        BufferedReader b = new BufferedReader(
+            new InputStreamReader(System.in));
+        int bs = Integer.parseInt(b.readLine());
+        int p = 5*bs-400;
+        System.out.println(p);
+        if (p==100) {
+            System.out.println(0);
         }
-
-        else if (x<100) {
-            y = 2;
+        else if (p<100) {
+            System.out.println(1);
         }
-
-        else {
-            ;
+        else if (p>100) {
+            System.out.println(-1);
         }
-
-        if (y==0) {
-            System.out.println(5*x-400);
-            System.out.println("-1");
-        }
-
-        else if (y==1) {
-            System.out.println(5*x-400);
-            System.out.println("0");
-        }
-
-        else {
-            System.out.println(5*x-400);
-            System.out.println("1");
-        }
-
-
     }
 }
