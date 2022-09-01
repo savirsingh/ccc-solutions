@@ -1,47 +1,30 @@
 # code by savir singh
 
-n = int(input())
-me = input().split(" ")
-outputlist = []
-lowtides = []
-hightides = []
+import sys
 
-measurements = []
-copymeasurements = []
-highestlowtide = 0
+n = int(sys.stdin.readline())
+measurements = list(map(int, sys.stdin.readline().split()))
 
-for i in range(n):
-    measurements.append(int(me[i]))
-
-copymeasurements = measurements.copy()
-
-for s in range(n//2):
-    copymeasurements.remove(max(copymeasurements))
-
-highestlowtide = max(copymeasurements)
-
-for j in range(n):
-    if measurements[j] <= highestlowtide:
-        lowtides.append(measurements[j])
-    elif measurements[j] > highestlowtide:
-        hightides.append(measurements[j])
-
+measurements.sort()
+if n%2==0:
+    lowtides = measurements[:int(n/2)]
+    hightides = measurements[int(n/2):]
+else:
+    lowtides = measurements[:(n//2+1)]
+    hightides = measurements[(n//2+1):]
 lowtides.sort(reverse=True)
-hightides.sort()
 
-for k in range(min(len(lowtides), len(hightides))):
-    outputlist.append(lowtides[k])
-    outputlist.append(hightides[k])
-
-if lowtides >= hightides:
-    for l in range(len(lowtides), len(hightides)):
-        outputlist.append(hightides[l])
-
+if n!=1:
+    if n%2==0:
+        for i in range(int(n/2)):
+            print(lowtides[i], end=' ')
+            print(hightides[i], end=' ')
+    else:
+        for i in range(n//2+1):
+            try:
+                print(lowtides[i], end=' ')
+                print(hightides[i], end=' ')
+            except:
+                pass
 else:
-    for m in range(len(hightides), len(lowtides)):
-        outputlist.append(lowtides[m])
-
-if n!= 1:
-    print(str(outputlist).replace('[', '').replace(']', '').replace(',', ''))
-else:
-    print(str(me).replace('[', '').replace(']', '').replace(',', '').replace("'", ""))
+    print(measurements[0])
