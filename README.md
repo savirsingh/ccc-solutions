@@ -33,7 +33,7 @@ I hate time limits, and using Python doesn't help-
 - CCC '16 Junior: 75/75
 - CCC '16 Senior: 40/75
 - CCC '15 Junior: 45/75
-- CCC '15 Senior: 33/75
+- CCC '15 Senior: 36/75
 - CCC '14 Junior: 75/75
 - CCC '14 Senior: 30/75
 - CCC '13 Junior: 60/75
