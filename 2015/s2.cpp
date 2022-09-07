@@ -1,4 +1,5 @@
 // code by savir singh
+// 15/15 - efficient algorithm
 
 #include <bits/stdc++.h>
 #define ll long long
