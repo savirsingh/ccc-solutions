@@ -1,62 +1,24 @@
-// code by savir singh
-
-// returns TLE... idek why
-// 12/15 points
-
 #include <bits/stdc++.h>
+#define ll long long
 using namespace std;
 
 int main() {
-
-    int j, a;
+    ll j, a;
     cin >> j >> a;
-    vector<string> jerseys;
-    vector<vector<string>> athletes;
-    int requests = 0;
-    vector<int> taken;
-    vector<string> orders = {"S", "M", "L"};
-
+    vector<char> jerseys(j);
+    ll counter=0;
     for (int i=0; i<j; i++) {
-        string jer;
-        cin >> jer;
-        jerseys.push_back(jer);
+        cin >> jerseys[i];
     }
-
-    for (int c=0; c<a; c++) {
-        string ath;
-        string athnum;
-        cin >> ath >> athnum;
-        vector<string> adder;
-        adder.push_back(ath);
-        adder.push_back(athnum);
-        athletes.push_back(adder);
-    }
-
-    for (int k=0; k<athletes.size(); k++) {
-        int index1, index2;
-        string thejersey = jerseys[stoi(athletes[k][1])-1];
-        string correctjersey = athletes[k][0];
-
-        auto jerindex = find(orders.begin(), orders.end(), thejersey);
-        auto corindex = find(orders.begin(), orders.end(), correctjersey);
-
-        if (jerindex != orders.end())
-        {
-
-            index1 = jerindex - orders.begin();
-        }
-        if (corindex != orders.end())
-        {
-
-            index2 = corindex - orders.begin();
-        }
-
-        if (thejersey==correctjersey || index1 > index2) {
-            if(find(taken.begin(), taken.end(), stoi(athletes[k][1])) == taken.end()) {
-                requests += 1;
-            }
-            taken.push_back(stoi(athletes[k][1]));
+    for (int i=0; i<a; i++) {
+        char c;
+        ll d;
+        cin >> c >> d;
+        d--;
+        if (jerseys[d]==c || int(jerseys[d])<int(c)) {
+            counter++;
+            jerseys[d]='Z';
         }
     }
-    cout << requests;
+    cout << counter;
 }
