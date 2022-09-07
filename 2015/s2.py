@@ -2,6 +2,8 @@
 
 # returns TLE cuz Python is slowwwww
 # code works fully though
+# i might make this algo more efficient later
+# check C++ code - it works
 # 12/15 points
 
 j = int(input())
