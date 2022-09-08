@@ -1,6 +1,6 @@
 // code by savir singh
 // 15/15 on DMOJ & CCC Grader
-// this was a hard problem lol
+// this was a hard problem lol (for an S1)
 
 #include <bits/stdc++.h>
 #define ll long long
