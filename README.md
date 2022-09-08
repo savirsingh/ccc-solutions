@@ -18,7 +18,7 @@ Note: I generally stuff my code with loops, so it may be inefficient :/
 I hate time limits, and using Python doesn't help-
 
 ### My Actual CCC Scores:
-- CCC '22: 30/75, Junior (only 2 months of practice)
+- CCC '22: 30/75, Junior (only 2 months of practice + I used Python)
 
 ### Problem Marks So Far (I haven't completed most questions yet):
 - CCC '22 Junior: 57/75
