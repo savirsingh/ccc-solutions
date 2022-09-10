@@ -23,7 +23,7 @@ I hate time limits, and using Python doesn't help-
 ### Problem Marks So Far (I haven't completed most questions yet):
 - CCC '22 Junior: 57/75
 - CCC '22 Senior: 23/75
-- CCC '21 Junior: 70/75
+- CCC '21 Junior: 75/75
 - CCC '21 Senior: 45/75
 - CCC '20 Junior: 60/75
 - CCC '20 Senior: 18/75
