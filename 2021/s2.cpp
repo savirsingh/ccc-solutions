@@ -1,5 +1,6 @@
 // code by savir singh
-// 10/15 - TLE
+// 15/15 on DMOJ & CCC Grader
+// this code has comments because it may be hard to understand.
 
 #include <bits/stdc++.h>
 #define ll long long
@@ -13,42 +14,27 @@ int32_t main()
     cin.tie(NULL);
     ll m, n, k;
     cin >> m >> n >> k;
-    vector<char> grid (m*n, 'B');
-    vector<pair<char, int>> instructions;
-    vector<pair<char, int>> rowin;
-    vector<pair<char, int>> colin;
+    vector<ll> rows (m, 0);
+    vector<ll> cols (n, 0);
+    ll gold_squares=0;
     for (int i=0; i<k; i++) {
-        pair<char, int> instruction;
-
-        cin >> get<0>(instruction) >> get<1>(instruction);
-        if (find(instructions.begin(), instructions.end(), instruction)!=instructions.end()) {
-            instructions.erase(remove(instructions.begin(), instructions.end(), instruction), instructions.end());
+        char rc;
+        ll n;
+        cin >> rc >> n;
+        n--;
+        if (rc=='R') {
+            rows[n]++;
         }
         else {
-            instructions.push_back(instruction);
+            cols[n]++;
         }
     }
-    for (int i=0; i<instructions.size(); i++) {
-        if (get<0>(instructions[i])=='R') {
-            for (int j=(get<1>(instructions[i])-1)*n; j<=get<1>(instructions[i])*n-1; j++) {
-                if (grid[j]=='B') {
-                    grid[j]='G';
-                }
-                else {
-                    grid[j]='B';
-                }
-            }
-        }
-        else {
-            for (int j=get<1>(instructions[i])-1; j<=get<1>(instructions[i])+(m-1)*n-1; j+=n) {
-                if (grid[j]=='G') {
-                    grid[j]='B';
-                }
-                else {
-                    grid[j] = 'G';
-                }
+    for (int i=0; i<m; i++) {
+        for (int j=0; j<n; j++) {
+            if ((rows[i]+cols[j])%2!=0) {
+                gold_squares++;
             }
         }
     }
-    cout << count(grid.begin(), grid.end(), 'G');
+    cout << gold_squares;
 }
