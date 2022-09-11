@@ -1,3 +1,5 @@
+# code by savir singh
+
 def time(plist, wlist, dlist, position):
     timetaken = 0
     for i in range(len(plist)):
