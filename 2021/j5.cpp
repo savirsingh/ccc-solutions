@@ -2,6 +2,18 @@
 // 15/15 on DMOJ & CCC Grader
 // this code has comments because it may be hard to understand.
 
+// a score of 10/15 is easily achievable and you can refer to my 
+// python solution of this problem for that algorithm.
+// the remaining 5 marks can be obtained by recogizing that the
+// colour of a cell depends on the parity of the number of
+// operations on that cell. for instance, if you go over a cell
+// 10 times, it would produce the same result as going over that
+// cell 0 times. similarly, going over a cell 11 times produces the
+// same result as going over a cell 1 time. after making this
+// observation, we know that cells with an even number of operations
+// would be black, while cells with an odd number of operations
+// would be gold. then, we simply output the gold cells count.
+
 #include <bits/stdc++.h>
 #define ll long long
 #define int long long
