@@ -1,5 +1,5 @@
 // code by savir singh
-// my cpp template for ccc
+// my current cpp template for ccc
 
 #include <bits/stdc++.h>
 #define int long long
