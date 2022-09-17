@@ -2,18 +2,23 @@
 // my current cpp template for ccc
 
 #include <bits/stdc++.h>
+using namespace std;
+// macros
 #define int long long
+#define double long double
+#define bit32 int32_t
 #define del erase
 #define pb push_back
-const auto INF = std::numeric_limits<int>::infinity();
-const int mod = 1000000000000;
-const int max_ = 1000000;
-using namespace std;
+#define str string
+#define scani(x) scanf("%lld", &x)
+#define scan(x) scanf("%c", &x)
+#define scanc(x) scanf("%s", &x)
+#define printi(x) printf("%lld", x); printf("%s", "\n")
+#define print(x) printf("%s", x); printf("%s", "\n")
+#define printc(x) printf("%c", x); printf("%s", "\n")
 
 // driver code
 int32_t main()
 {
-    // fast i/o
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
+
 }
