@@ -13,9 +13,9 @@ using namespace std;
 #define scani(x) scanf("%lld", &x)
 #define scan(x) scanf("%c", &x)
 #define scanc(x) scanf("%s", &x)
-#define printi(x) printf("%lld", x); printf("%s", "\n")
-#define print(x) printf("%s", x); printf("%s", "\n")
-#define printc(x) printf("%c", x); printf("%s", "\n")
+#define printi(x) printf("%lld", x);
+#define print(x) printf("%s", x);
+#define printc(x) printf("%c", x);
 
 // driver code
 int32_t main()
