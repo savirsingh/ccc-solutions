@@ -11,8 +11,8 @@ using namespace std;
 #define pb push_back
 #define str string
 #define scani(x) scanf("%lld", &x)
-#define scan(x) scanf("%c", &x)
-#define scanc(x) scanf("%s", &x)
+#define scan(x) scanf("%s", &x)
+#define scanc(x) scanf("%c", &x)
 #define printi(x) printf("%lld", x);
 #define print(x) printf("%s", x);
 #define printc(x) printf("%c", x);
