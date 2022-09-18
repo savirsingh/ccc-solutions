@@ -18,7 +18,7 @@ using namespace std;
 #define printc(x) printf("%c", x);
 
 // driver code
-int32_t main()
+bit32 main()
 {
 
 }
