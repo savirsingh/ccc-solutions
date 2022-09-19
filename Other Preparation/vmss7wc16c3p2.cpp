@@ -17,10 +17,12 @@ using namespace std;
 #define printi(x) printf("%lld", x);
 #define print(x) printf("%s", x);
 #define printc(x) printf("%c", x);
+// initialize global variables and MAX limit
 const int MAX = 2001;
 int n,m,a,b,x,y;
 bool adj[MAX][MAX];
 bool visited[MAX];
+// dfs recursive function
 void dfs(int s)
 {
     visited[s] = true;
