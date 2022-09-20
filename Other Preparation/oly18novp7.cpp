@@ -1,3 +1,8 @@
+// code by savir singh
+// https://dmoj.ca/problem/oly18novp7
+// 130/130
+// olympiads school homework
+
 #include <bits/stdc++.h>
 using namespace std;
 // macros
