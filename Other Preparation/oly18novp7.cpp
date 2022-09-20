@@ -31,7 +31,7 @@ deque<int> deq;
 bit32 main(){
     scani(x); scani(y);
     deq.pb(x);
-    memset(times, 100, sizeof(times));
+    memset(times, 1, sizeof(times));
     times[x]=0;
     while (!deq.empty()) {
         int n=deq.front(); deq.pop_front();
