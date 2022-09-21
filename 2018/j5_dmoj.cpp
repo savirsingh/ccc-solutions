@@ -1,4 +1,9 @@
 // code by savir singh
+// my initial solution used adjacency matrix and
+// therefore used too much memory. it passed on
+// the ccc grader but not on dmoj. 
+// i wrote the program again using adjacency
+// list instead and it worked on dmoj.
 
 #include <bits/stdc++.h>
 using namespace std;
