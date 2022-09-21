@@ -1,4 +1,6 @@
 // code by savir singh
+// 15/15 on CCC Grader, but this code doesn't work on DMOJ.
+// check other code for DMOJ-specific
 
 #include <bits/stdc++.h>
 using namespace std;
