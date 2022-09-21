@@ -29,7 +29,7 @@ I hate time limits, and using Python doesn't help-
 - CCC '20 Senior: 18/75
 - CCC '19 Junior: 75/75
 - CCC '19 Senior: 30/75
-- CCC '18 Junior: 60/75
+- CCC '18 Junior: 75/75
 - CCC '18 Senior: 30/75
 - CCC '17 Junior: 60/75
 - CCC '17 Senior: 45/75
