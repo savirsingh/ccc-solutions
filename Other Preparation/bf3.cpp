@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/bf3
+// 100/100
 
 #include <bits/stdc++.h>
 using namespace std;
