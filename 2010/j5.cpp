@@ -1,4 +1,6 @@
 // code by savir singh
+// 30/80 on DMOJ
+// haven't tested on CCC Grader
 
 #include <bits/stdc++.h>
 using namespace std;
