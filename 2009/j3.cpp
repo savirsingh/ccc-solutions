@@ -1,4 +1,5 @@
 // code by savir singh
+// if your code isn't working, try case "45"
 
 #include <bits/stdc++.h>
 using namespace std;
