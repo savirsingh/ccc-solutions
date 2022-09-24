@@ -1,6 +1,4 @@
 // code by savir singh
-// 30/80 on DMOJ
-// haven't tested on CCC Grader
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -32,6 +30,7 @@ bit32 main()
     vec.pb(s);
     visited[s.first][s.second]=true;
     while (vec.size()>0) {
+        temp.clear();
         for (ppi adj : vec) {
             if (adj.first==e.first && adj.second==e.second) {
                 printi(c);
@@ -74,7 +73,7 @@ bit32 main()
                             visited[x+2][y-1]=true;
                             ppi n;
                             n.first=x+2;
-                            n.second=y-2;
+                            n.second=y-1;
                             temp.pb(n);
                         }
                     }
@@ -94,7 +93,7 @@ bit32 main()
                             visited[x-2][y-1]=true;
                             ppi n;
                             n.first=x-2;
-                            n.second=y-2;
+                            n.second=y-1;
                             temp.pb(n);
                         }
                     }
@@ -123,6 +122,5 @@ bit32 main()
         }
         c++;
         vec=temp;
-        temp.clear();
     }
 }
