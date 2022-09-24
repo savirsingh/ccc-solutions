@@ -2,8 +2,7 @@
 // 15/15 on DMOJ & CCC Grader
 // this code has comments because it may be hard to understand.
 
-// a score of 10/15 is easily achievable and you can refer to my 
-// python solution of this problem for that algorithm.
+// a score of 10/15 is easily achievable.
 // the remaining 5 marks can be obtained by recogizing that the
 // colour of a cell depends on the parity of the number of
 // operations on that cell. for instance, if you go over a cell
