@@ -1,6 +1,5 @@
 # code by savir singh
 # solution to CCC '09 S3 (Olympiads HW)
-# full marks but not the proper way :(
 
 def check_common(l1, l2):
     for i in range(len(l2)):
