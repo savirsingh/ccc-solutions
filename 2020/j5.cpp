@@ -1,4 +1,5 @@
 // code by savir singh
+// solved using BFS
 
 #include <bits/stdc++.h>
 using namespace std;
