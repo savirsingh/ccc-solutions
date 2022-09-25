@@ -17,6 +17,8 @@ using namespace std;
 #define print(x) printf("%s", x);
 #define printc(x) printf("%c", x);
 
+// this is basically just a pair
+// but is customized for this problem
 class cell {
 public:
     int r, c;
@@ -30,6 +32,7 @@ bool visited[1008][1008];
 // driver code
 bit32 main()
 {
+    // scan everything
     int m, n;
     scani(m); scani(n);
     cell fin;
@@ -44,6 +47,8 @@ bit32 main()
             }
         }
     }
+    // implement BFS (backwards, beginning from
+    // the last cell in the grid)
     deque<cell> deq;
     deq.pb(fin);
     while (!deq.empty()) {
@@ -51,6 +56,7 @@ bit32 main()
         vector<cell> p = graph[z.r*z.c];
         for (cell adj : p) {
             if (adj.r==1 && adj.c==1) {
+                // path possible
                 cout << "yes";
                 return false;
             }
@@ -60,5 +66,6 @@ bit32 main()
             }
         }
     }
+    // path impossible
     cout << "no";
 }
