@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/graph1p2
+// 50/50
 
 #include <bits/stdc++.h>
 using namespace std;
