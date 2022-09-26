@@ -1,4 +1,7 @@
 // code by savir singh
+// https://dmoj.ca/problem/hci16oversleep
+// 100/100
+// Olympiads School Homework
 
 #include <bits/stdc++.h>
 using namespace std;
