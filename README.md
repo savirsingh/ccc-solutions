@@ -1,9 +1,8 @@
 # CCC Solutions
 
-Canadian Computing Competition solutions in Python, C++, Java. I started solving these problems in December 2021 (in Grade 9).
+Canadian Computing Competition solutions in C++, Python, Java. I started solving these problems in December 2021 (in Grade 9).
 
-I'm most comfortable with Python.
-I've written some solutions in C++/Java just in case they have low time limits (C++ is faster than Java which is faster than Python).
+I'm most comfortable with Python and C++. C++ is now my main programming language for competitive programming.
 
 Email kopichiki@gmail.com if you have any questions.
 
