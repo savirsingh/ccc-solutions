@@ -1,5 +1,6 @@
 // code by savir singh
 // https://dmoj.ca/problem/aac2p0
+// 30/30
 
 #include <bits/stdc++.h>
 using namespace std;
