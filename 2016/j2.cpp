@@ -1,4 +1,6 @@
 // code by savir singh
+// 15/15 on DMOJ & CCC Grader
+// because of outputting new line
 
 #include <bits/stdc++.h>
 using namespace std;
