@@ -1,6 +1,7 @@
 // code by savir singh
 // https://dmoj.ca/problem/usaco22jans1
 // 120/120
+// olympiads school only
 
 #include <bits/stdc++.h>
 using namespace std;
