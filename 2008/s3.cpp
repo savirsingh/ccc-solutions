@@ -1,4 +1,6 @@
 // code by savir singh
+// spent an hour debugging "==" instead of "="
+// thanks to wleung_bvg on DMOJ for helping :)
 
 #include <bits/stdc++.h>
 using namespace std;
