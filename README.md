@@ -45,7 +45,7 @@ The CCC can be difficult for a lot of people, but continue practicing and you mi
 - CCC '09 Junior: 15/75
 - CCC '09 Senior: 15/75
 - CCC '08 Junior: 45/75
-- CCC '08 Senior: 15/75
+- CCC '08 Senior: 45/75
 - CCC '07 Junior: 71/75
 - CCC '07 Senior: 15/75
 - CCC '06 Junior: 45/75
