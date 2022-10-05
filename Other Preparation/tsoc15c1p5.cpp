@@ -43,10 +43,6 @@ bit32 main()
     for (int i=1; i<=w; i++) {
         int wi; cin >> wi;
         ants.pb(wi);
-        if (wi==8 && n==10) {
-            cout << 7;
-            return false;
-        }
     }
     deque<int> deq;
     deq.pb(1);
