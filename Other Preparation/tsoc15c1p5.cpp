@@ -5,6 +5,16 @@
 // this problem took ages to debug lol
 // thx to dnialh_ on dmoj for helping debug
 
+// strategy:
+// a lot of people suggested performing BFS
+// twice, but i didn't want to do this :(
+// instead, i performed BFS once, and
+// sacrificed bobhob314 if there was an ant
+// on an adjacent node and that node was the
+// only option. within that BFS, i also added
+// ants to all nodes with ants already
+// adjacent to them every 4 turns.
+
 #include <bits/stdc++.h>
 using namespace std;
 // macros
