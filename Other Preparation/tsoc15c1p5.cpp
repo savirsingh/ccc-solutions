@@ -1,4 +1,9 @@
 // code by savir singh
+// https://dmoj.ca/problem/tsoc15c1p5
+// 100/100
+
+// this problem took ages to debug lol
+// thx to dnialh_ on dmoj for helping debug
 
 #include <bits/stdc++.h>
 using namespace std;
