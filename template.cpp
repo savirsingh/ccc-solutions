@@ -16,6 +16,7 @@ using namespace std;
 #define printi(x) printf("%lld", x);
 #define print(x) printf("%s", x);
 #define printc(x) printf("%c", x);
+#define pii pair<int, int>
 
 // driver code
 bit32 main()
