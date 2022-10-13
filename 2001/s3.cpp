@@ -1,4 +1,6 @@
 // code by savir singh
+// using DFS algorithm
+// Olympiads Homework
 
 #include <bits/stdc++.h>
 using namespace std;
