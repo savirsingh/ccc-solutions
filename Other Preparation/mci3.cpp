@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/mci3
+// 20/20
 
 #include <bits/stdc++.h>
 using namespace std;
