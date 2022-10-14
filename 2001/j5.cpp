@@ -1,6 +1,7 @@
 // code by savir singh
 // using DFS algorithm
 // Olympiads Homework
+// j5 is same as s3
 
 #include <bits/stdc++.h>
 using namespace std;
