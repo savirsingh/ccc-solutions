@@ -56,7 +56,7 @@ The CCC can be difficult for a lot of people, but continue practicing and you mi
 - CCC '03 Senior: None
 - CCC '02 Junior: 30/75
 - CCC '02 Senior: None
-- CCC '01 Junior: None
+- CCC '01 Junior: 15/75
 - CCC '01 Senior: 15/75
 
 Please note that the majority of these problems were not solved in a competitive environment.
