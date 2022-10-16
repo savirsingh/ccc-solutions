@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/dmopc21c6p3
+// 15/15
 
 #include <bits/stdc++.h>
 using namespace std;
