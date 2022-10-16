@@ -11,7 +11,7 @@ You can find all of these problems at https://dmoj.ca or https://cemc.uwaterloo.
 The CCC can be difficult for a lot of people, but continue practicing and you might even be able to achieve a perfect score.
 
 ### My Actual CCC Scores:
-- CCC '22: 30/75, Junior (only 2 months of practice + I used Python)
+- CCC '22: 30/75, Junior (only 2 months of practice)
 
 ### Problem Marks So Far (I haven't completed most questions yet):
 - CCC '22 Junior: 58/75
