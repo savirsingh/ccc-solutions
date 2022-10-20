@@ -6,9 +6,7 @@ I'm most comfortable with Python and C++. C++ is now my main programming languag
 
 Email kopichiki@gmail.com if you have any questions.
 
-You can find all of these problems at https://dmoj.ca or https://cemc.uwaterloo.ca
-
-The CCC can be difficult for a lot of people, but continue practicing and you might even be able to achieve a perfect score.
+You can find all of these problems at https://dmoj.ca or https://cemc.uwaterloo.ca.
 
 ### My Actual CCC Scores:
 - CCC '22: 30/75, Junior (only 2 months of practice)
