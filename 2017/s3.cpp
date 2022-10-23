@@ -1,6 +1,9 @@
 // code by savir singh
 // 15/15 FINALLY!
 // idk why it took so long
+// thank you to literally everyone on DMOJ
+// for helping me to understand what it was
+// asking!
 
 #include <bits/stdc++.h>
 using namespace std;
