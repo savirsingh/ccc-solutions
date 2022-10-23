@@ -1,6 +1,7 @@
 // code by savir singh
 // https://dmoj.ca/problem/coci08c2p3
 // 70/70
+// olympiads school homework
 
 #include <bits/stdc++.h>
 using namespace std;
