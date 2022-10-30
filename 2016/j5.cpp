@@ -1,4 +1,5 @@
 // code by savir singh
+// same as s2
 
 #include <bits/stdc++.h>
 #define ll long long
