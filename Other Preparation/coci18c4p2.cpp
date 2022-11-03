@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/coci18c4p2
+// 10/10
 
 #include <bits/stdc++.h>
 using namespace std;
