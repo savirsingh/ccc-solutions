@@ -17,7 +17,7 @@ You can find all of these problems at https://dmoj.ca or https://cemc.uwaterloo.
 - CCC '21 Junior: 75/75
 - CCC '21 Senior: 45/75
 - CCC '20 Junior: 75/75
-- CCC '20 Senior: 33/75
+- CCC '20 Senior: 48/75
 - CCC '19 Junior: 75/75
 - CCC '19 Senior: 30/75
 - CCC '18 Junior: 75/75
