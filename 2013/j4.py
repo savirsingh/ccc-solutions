@@ -1,3 +1,5 @@
+# code by savir singh
+
 t = int(input())
 c = int(input())
 maxchores = 0
