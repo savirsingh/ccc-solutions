@@ -1,3 +1,5 @@
+# code by savir singh
+
 x = int(input())
 
 def nextnum(year):
