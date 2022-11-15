@@ -1,4 +1,7 @@
 // code by savir singh
+// https://dmoj.ca/problem/treepractice1
+// 100/100
+// special thanks to Riolku for helping me debug.
 
 #include <bits/stdc++.h>
 using namespace std;
