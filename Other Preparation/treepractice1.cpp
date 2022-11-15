@@ -135,6 +135,6 @@ bit32 main()
     for (int s : diameter_nodes) {
         distances.insert(max(distance_first[s], distance_second[s]));
     }
-  // output the tree's radius
+    // output the tree's radius
     cout << *min_element(distances.begin(), distances.end());
 }
