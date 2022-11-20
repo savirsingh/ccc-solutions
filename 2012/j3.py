@@ -1,3 +1,5 @@
+# code by savir singh
+
 k = int(input())
 
 for i in range(k):
