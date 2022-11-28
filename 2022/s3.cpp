@@ -1,4 +1,5 @@
 // code by savir singh
+// first ad hoc???
 
 #include <bits/stdc++.h>
 using namespace std;
