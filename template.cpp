@@ -1,5 +1,6 @@
 // code by savir singh
 // my current cpp template for ccc
+// (and for everything else too lol)
 
 #include <bits/stdc++.h>
 using namespace std;
