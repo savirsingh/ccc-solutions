@@ -18,8 +18,30 @@ using namespace std;
 #define printc(x) printf("%c", x);
 #define pii pair<int, int>
 
-// driver code
-bit32 main()
+// fast i/o
+void read(int &number)
 {
+    bool negative = false;
+    register int c;
 
+    number = 0;
+    c = getchar();
+    if (c=='-')
+    {
+        negative = true;
+
+        c = getchar();
+    }
+    for (; (c>47 && c<58); c=getchar())
+        number = number *10 + c - 48;
+    if (negative)
+        number *= -1;
+}
+
+// all vars
+// add some variables here...
+
+// driver code
+bit32 main() {
+  
 }
