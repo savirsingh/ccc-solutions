@@ -19,6 +19,26 @@ using namespace std;
 #define printc(x) printf("%c", x);
 #define pii pair<int, int>
 
+// fast i/o
+void read(int &number)
+{
+    bool negative = false;
+    register int c;
+
+    number = 0;
+    c = getchar();
+    if (c=='-')
+    {
+        negative = true;
+
+        c = getchar();
+    }
+    for (; (c>47 && c<58); c=getchar())
+        number = number *10 + c - 48;
+    if (negative)
+        number *= -1;
+}
+
 // all vars
 int N;
 set<pii> coors;
@@ -26,9 +46,10 @@ int largest;
 
 // driver code
 bit32 main() {
-    cin >> N;
+    read(N);
     for (int i=0; i<N; i++) {
-        int x, y; cin >> x >> y;
+        int x, y;
+        read(x); read(y);
         coors.insert({x, y});
     }
 
