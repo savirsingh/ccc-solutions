@@ -1,3 +1,7 @@
+// code by savir singh
+// https://dmoj.ca/problem/ac19p4
+// 100/100
+
 #include <bits/stdc++.h>
 using namespace std;
 // macros
