@@ -12,7 +12,7 @@ You can find all of these problems at https://dmoj.ca or https://cemc.uwaterloo.
 - CCC '22: 30/75, Junior (only 2 months of practice)
 
 ### Problem Marks So Far (I haven't completed most problems yet):
-- CCC '22 Junior: 58/75
+- CCC '22 Junior: 66/75
 - CCC '22 Senior: 45/75
 - CCC '21 Junior: 75/75
 - CCC '21 Senior: 60/75
