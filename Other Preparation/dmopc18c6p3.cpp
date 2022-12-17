@@ -45,6 +45,7 @@ int N, M;
 vector<int> graph[MAX];
 bool visited[MAX];
 
+// dfs function
 void dfs(int node)
 {
     if (visited[node]) return;
