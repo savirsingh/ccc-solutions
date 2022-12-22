@@ -3,6 +3,8 @@
 // (and for everything else too lol)
 
 #pragma GCC optimize("Ofast", "unroll-loops")
+#pragma optimize( "", off )
+#pragma optimize( "", on )
 #include <bits/stdc++.h>
 using namespace std;
 // macros
