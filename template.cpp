@@ -2,6 +2,7 @@
 // my current cpp template for ccc
 // (and for everything else too lol)
 
+#pragma GCC optimize("Ofast", "unroll-loops")
 #include <bits/stdc++.h>
 using namespace std;
 // macros
