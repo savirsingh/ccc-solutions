@@ -1,4 +1,6 @@
 // code by savir singh
+// 1/1
+// https://dmoj.ca/problem/acmtryouts1e
 
 #include <bits/stdc++.h>
 using namespace std;
