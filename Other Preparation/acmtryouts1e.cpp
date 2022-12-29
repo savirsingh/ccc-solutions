@@ -5,11 +5,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-const int MOD = 1e7;
+const int MOD = 1000000007;
 
 int t, n, m;
 int a[205], b[205];
-int dp[2][205];
+int dp[205][205];
 
 int main() {
   cin >> t;
@@ -23,15 +23,13 @@ int main() {
     dp[0][0] = 1;
 
     for (int i = 1; i <= n; i++) {
-      int curr = i % 2, prev = (i - 1) % 2;
       for (int j = 0; j <= m; j++) {
-        dp[curr][j] = 0;
         for (int k = a[i]; k <= b[i] && k <= j; k++) {
-          dp[curr][j] = (dp[curr][j] + dp[prev][j - k]) % MOD;
+          dp[i][j] = (dp[i][j] + dp[i - 1][j - k]) % MOD;
         }
       }
     }
 
-    cout << dp[n % 2][m] << endl;
+    cout << dp[n][m] << endl;
   }
 }
