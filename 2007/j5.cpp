@@ -1,4 +1,5 @@
 // code by savir singh
+// 15/15
 
 #pragma GCC optimize("Ofast", "unroll-loops")
 #pragma optimize( "", off )
