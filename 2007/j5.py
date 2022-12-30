@@ -2,6 +2,9 @@
 
 # gives TLE error but works
 
+# update: likely due to recursive implementation
+# check cpp sol for iterative impl, full sol
+
 def find(dis):
   global ways
   if (dis >= 7000):
