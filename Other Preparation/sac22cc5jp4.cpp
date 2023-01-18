@@ -1,6 +1,7 @@
 // code by savir singh
 // https://dmoj.ca/problem/sac22cc5jp4
 // 100/100
+// update: this is topo sort
 
 #include <bits/stdc++.h>
 using namespace std;
