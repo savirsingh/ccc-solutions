@@ -1,4 +1,8 @@
 // code by savir singh
+// bad version of s4
+// correct algorithm, produces correct results
+// however too slow
+// see s4.cpp for full solution
 
 #include <bits/stdc++.h>
 #define scan(x) do{while((x=getchar())<'0'); for(x-='0'; '0'<=(_=getchar()); x=(x<<3)+(x<<1)+_-'0');}while(0)
