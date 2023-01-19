@@ -3,6 +3,7 @@
 // correct algorithm, produces correct results
 // however too slow
 // see s4.cpp for full solution
+// this solution gets 40/120 with TLE verdict on DMOJ.
 
 #include <bits/stdc++.h>
 #define scan(x) do{while((x=getchar())<'0'); for(x-='0'; '0'<=(_=getchar()); x=(x<<3)+(x<<1)+_-'0');}while(0)
