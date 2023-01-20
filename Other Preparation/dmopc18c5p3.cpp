@@ -16,10 +16,6 @@ int32_t main() {
     scan(n); scan(m);
     int c[n+1], psa[n+1];
     for (int i=1; i<=n; i++) scan(c[i]);
-    psa[1]=c[1];
-    for (int i=2; i<=n; i++) {
-        psa[i]=psa[i-1]+c[i];
-    }
     int left=1, right=1, curr=0, fin=0;
     while (right<=n) {
         curr+=c[right];
