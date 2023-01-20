@@ -14,7 +14,7 @@ int32_t main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     scan(n); scan(m);
-    int c[n+1], psa[n+1];
+    int c[n+1];
     for (int i=1; i<=n; i++) scan(c[i]);
     int left=1, right=1, curr=0, fin=0;
     while (right<=n) {
