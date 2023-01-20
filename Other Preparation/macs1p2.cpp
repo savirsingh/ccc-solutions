@@ -2,6 +2,10 @@
 // https://dmoj.ca/problem/macs1p2
 // 100/100
 
+// explanation:
+// you just need to check the number of columns full of students
+// if there are more than 2, then max is screwed.
+
 #include <bits/stdc++.h>
 using namespace std;
 
