@@ -43,7 +43,7 @@ void markObstructions() {
             grid[i][j]=false;
         }
     }
-    // obstruction square 2
+    // obstruction square 4
     for (int i=w-cw+1; i<=w; i++) {
         for (int j=h-ch+1; j<=h; j++) {
             grid[i][j]=false;
