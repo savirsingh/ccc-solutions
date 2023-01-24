@@ -1,6 +1,7 @@
 // code by savir singh
 // bro i missed #define int long long
 // :sob:
+// wasted 1 hr on debugging correct code
 
 #include <bits/stdc++.h>
 #define scan(x) do{while((x=getchar())<'0'); for(x-='0'; '0'<=(_=getchar()); x=(x<<3)+(x<<1)+_-'0');}while(0)
