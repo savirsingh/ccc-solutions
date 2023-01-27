@@ -1,36 +1,27 @@
 // code by savir singh
-// 6/15 - TLE
-// i may work on this problem more later...
 
 #include <bits/stdc++.h>
-#define ll long long
-#define del erase
 using namespace std;
 
-int main() {
+int32_t main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    ll g, p;
+    int g, p;
     cin >> g >> p;
-    vector<ll> occupied;
-    bool stop=false;
-    ll canland=0;
-    for (int i=0; i<p; i++) {
-        ll a;
-        cin >> a;
-        if (stop==false) {
-            while (a--) {
-                if (find(occupied.begin(), occupied.end(), a) == occupied.end()) {
-                    occupied.push_back(a);
-                    canland++;
-                    stop=false;
-                    break;
-                }
-                else {
-                    stop=true;
-                }
-            }
-        }
+    int num=0;
+    set<int> available;
+    for (int i=1; i<=g; i++) {
+        available.insert(i);
     }
-    cout << canland;
+    for (int i=0; i<p; i++) {
+        int a; cin >> a;
+        auto it = available.upper_bound(a);
+        if (it != available.begin()) {
+            it--;
+            num++;
+            available.erase(it);
+        }
+        else break;
+    }
+    cout << num << endl;
 }
