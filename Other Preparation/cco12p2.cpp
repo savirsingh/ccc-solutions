@@ -1,4 +1,7 @@
 // code by savir singh
+// https://dmoj.ca/problem/cco12p2
+// 19/19
+
 // bro i missed #define int long long
 // :sob:
 // wasted 1 hr on debugging correct code
