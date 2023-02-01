@@ -1,6 +1,8 @@
 // code by savir singh
-// very annoying problem
-// but also super fun
+// very annoying problem but also super fun
+// initially used bfs but this failed the third
+// subtask. ended up using a modified-bfs/dijkstra's
+// type of algorithm. too tired now.
 
 #include <bits/stdc++.h>
 using namespace std;
