@@ -67,7 +67,7 @@ edge edgeMax(edge &a, edge &b) {
     return a;
 }
 
-int kruskal() {
+int kruskal() { // first kruskal algorithm
     best.u=-1; best.v=-1; best.w=-1;
     int days=0;
     for (edge ed : edges) {
@@ -95,7 +95,7 @@ int32_t main() {
     }
     sort(edges.begin(), edges.end(), compare);
     fin = kruskal();
-    if (best.w < d) {
+    if (best.w < d) { // then try to reduce
         for (edge ed : edges) {
             if (!same2(ed.u, ed.v)) {
                 if (ed.w < best.w || (ed.w == best.w && ed.time < n)) {
