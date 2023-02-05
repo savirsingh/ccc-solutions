@@ -1,4 +1,6 @@
 // code by savir singh
+// 50/50
+// https://dmoj.ca/problem/dp1p1
 
 #include <bits/stdc++.h>
 #define int long long
