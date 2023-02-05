@@ -1,4 +1,6 @@
 // code by savir singh
+// 100/100
+// https://dmoj.ca/problem/dpa
 
 #include <bits/stdc++.h>
 #define int long long
