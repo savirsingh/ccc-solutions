@@ -2,6 +2,9 @@
 // 100/100
 // https://dmoj.ca/problem/dpa
 
+// dp state:
+// dp[i] = min cost incurred to get to Stone i.
+
 #include <bits/stdc++.h>
 #define int long long
 using namespace std;
