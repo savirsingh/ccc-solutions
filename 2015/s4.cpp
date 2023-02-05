@@ -2,6 +2,11 @@
 // And this is when I learned that Dijkstra's doesn't require
 // a visited array. Thank you brain.
 
+// idea:
+// just 2d dijkstra's where dist[i][j] represents the minimum
+// distance to node i when j cm of hull is worn out.
+// and then the answer is just min(dist[b][1...k])
+
 #include <bits/stdc++.h>
 #define scan(x) do{while((x=getchar())<'0'); for(x-='0'; '0'<=(_=getchar()); x=(x<<3)+(x<<1)+_-'0');}while(0)
 char _;
