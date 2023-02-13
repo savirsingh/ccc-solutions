@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/valday15p2
+// 100/100
 
 #include <bits/stdc++.h>
 //#define int long long
