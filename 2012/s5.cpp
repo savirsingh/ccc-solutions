@@ -1,4 +1,8 @@
 // code by savir singh
+// 15/15 on CCC Grader
+// 70/70 on DMOJ
+// dynamic programming
+// concept!
 
 #include <bits/stdc++.h>
 #define int long long
