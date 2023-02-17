@@ -12,6 +12,7 @@ You can find all of these problems at https://dmoj.ca or https://cemc.uwaterloo.
 
 ### My Actual CCC Scores:
 - CCC '22: 30/75, Junior (only 2 months of practice)
+- CCC '23 : 57/75, Junior (absolutely threw)
 
 ### Problem Marks So Far (I haven't completed most problems yet):
 - CCC '22 Junior: 66/75
