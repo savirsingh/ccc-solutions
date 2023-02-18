@@ -1,5 +1,18 @@
 // code by savir singh
 
+// idea:
+// Notice that answers to longer subarrays are partly based on 
+// the answers to shorter subarrays. Specifically, you only need
+// to calculate the abs(1st value - last value) in the subarray
+// and add the answer for the middle range, which was previously
+// calculated already and can be stored. In this implementation,
+// pre[i][j] stores the sum of absolute differences of the pairs
+// for the subarray from position i to position j. In O(N) time,
+// we can then calculate the answer for each index using
+// precomputed values and finding the minimum answer in the range.
+
+// Overall Time Complexity: O(N^2)
+
 #include <bits/stdc++.h>
 #define int long long
 using namespace std;
