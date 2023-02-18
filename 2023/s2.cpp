@@ -9,7 +9,7 @@
 // pre[i][j] stores the sum of absolute differences of the pairs
 // for the subarray from position i to position j. In O(N) time,
 // we can then calculate the answer for each index using
-// precomputed values and finding the minimum answer in the range.
+// precomputed values and find the minimum answer in the range.
 
 // Overall Time Complexity: O(N^2)
 
