@@ -1,5 +1,5 @@
 // code by savir singh
-// 15/15
+// 15/15 on CCC Grader
 
 // most difficult implementation construction problem ever
 // there are so many edge cases
