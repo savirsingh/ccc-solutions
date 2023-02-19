@@ -1,6 +1,15 @@
 // code by savir singh
 // 15/15
 
+// most difficult implementation construction problem ever
+// there are so many edge cases
+
+// the basic idea is simply to set everything to 'a' and
+// then changing things to 'b' to reduce the number of
+// palindromes. Afterwards you can add special conditions
+// for the edge cases to handle them. The main edge cases
+// were when R=N/C=M and the other one isn't equal to N/M.
+
 #include <bits/stdc++.h>
 #define int long long
 using namespace std;
