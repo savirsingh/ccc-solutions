@@ -1,4 +1,19 @@
 // code by savir singh
+// 15/15 on CCC Grader
+
+// idea:
+// (for subtask 1 you just do template kruskal's)
+
+// subtask 2 and beyond (dijkstra):
+// find distances from all nodes to all other nodes.
+// store this in dist[i][j]. notice that removing
+// an edge (u, v) will only affect the shortest path
+// from node u to some node i. Sort all edges in
+// descending order. Iterate through all nodes i from 
+// 1 to N and if the dist is unchanged, remove the
+// edge from the graph and reduce the cost by the
+// edge's cost. It basically uses the same idea as MST,
+// but with the length/dist being factored in as well.
 
 #include <bits/stdc++.h>
 #define int long long
