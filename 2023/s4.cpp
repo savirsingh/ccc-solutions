@@ -1,6 +1,8 @@
 // code by savir singh
 // 15/15 on CCC Grader
 
+// not very hard for an s4
+
 // idea:
 // (for subtask 1 you just do template kruskal's)
 
