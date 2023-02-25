@@ -2,7 +2,7 @@
 
 Canadian Computing Competition solutions in C++, Python, Java. I started solving these problems in December 2021 (in Grade 9).
 
-This repository contains all of my solutions to CCC problems from 2001 to 2023, as well as other fun problems to get you thinking (stored [right here](https://github.com/savirsingh/ccc-solutions/tree/main/Other%20Preparation)).
+This repository contains all of my solutions to CCC problems from 2000 to 2023, as well as other fun problems to get you thinking (stored [right here](https://github.com/savirsingh/ccc-solutions/tree/main/Other%20Preparation)).
 
 I'm most comfortable with Python and C++. C++ is now my main programming language for competitive programming.
 
@@ -61,5 +61,7 @@ You can find all of these problems at https://dmoj.ca or https://cemc.uwaterloo.
 - CCC '02 Senior: None
 - CCC '01 Junior: 15/75
 - CCC '01 Senior: 15/75
+- CCC '00 Junior: None
+- CCC '00 Senior: 15/75
 
 Please note that the majority of these problems were not solved in a competitive environment.
