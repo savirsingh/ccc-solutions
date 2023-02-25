@@ -1,4 +1,5 @@
 // code by savir singh
+// dynamic programming approach
 
 #include <bits/stdc++.h>
 #define pii pair<int, int>
