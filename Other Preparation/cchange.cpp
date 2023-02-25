@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/cchange
+// 120/120
 
 #include <bits/stdc++.h>
 #define pii pair<int, int>
