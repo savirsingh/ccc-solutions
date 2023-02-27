@@ -1,4 +1,7 @@
 // code by savir singh
+// https://dmoj.ca/problem/dpd
+// 100/100
+// knapsack with optimized 1d array
 
 #include <bits/stdc++.h>
 using namespace std;
