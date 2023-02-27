@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/ucc20p4
+// 10/10
 
 #include <bits/stdc++.h>
 using namespace std;
