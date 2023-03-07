@@ -4,7 +4,7 @@
 
 #include <bits/stdc++.h>
 using namespace std;
-#define int long long
+//#define int long long
 const int MAX = 1e3+2;
 
 int n, m, dp[MAX][MAX], one[MAX], two[MAX];
