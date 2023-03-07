@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/coci22c4p1
+// 50/50
 
 #include <bits/stdc++.h>
 using namespace std;
