@@ -2,6 +2,10 @@
 // https://dmoj.ca/problem/oly20practice78
 // 100/100
 
+// idea:
+// just calculate the min costs to get up to 1e5 apples.
+// and then find the best answer from m to 1e5. easy.
+
 #include <bits/stdc++.h>
 using namespace std;
 #define int long long
