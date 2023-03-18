@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/cco18p1
+// 25/25
 
 #include <bits/stdc++.h>
 using namespace std;
