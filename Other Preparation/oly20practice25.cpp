@@ -1,4 +1,7 @@
 // code by savir singh
+// https://dmoj.ca/problem/oly20practice25
+// 100/100
+// Olympiads Homework
 
 #include <bits/stdc++.h>
 using namespace std;
