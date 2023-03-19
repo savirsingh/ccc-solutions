@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/tsoc16c1p6
+// 100/100
 
 #include <bits/stdc++.h>
 using namespace std;
