@@ -6,19 +6,18 @@
 using namespace std;
 
 const int MM = 2001;
-int n, k, dp[MM][MM], last[MM];
+int n, k, dp[MM][MM], last[200];
 string a, b;
 
-void lcs() {
+bool lcs() {
     memset(dp, 0, sizeof dp);
     for (int i = 1; i <= n; i++) {
         for (int j = 1; j <= n; j++) {
             if (a[i-1] == b[j-1]) dp[i][j] = dp[i-1][j-1] + 1;
-            else {
-                dp[i][j] = max(dp[i-1][j], dp[i][j-1]);
-            }
+            else dp[i][j] = max(dp[i-1][j], dp[i][j-1]);
         }
     }
+    return dp[n][n] == k;
 }
 
 int main(){
@@ -41,18 +40,8 @@ int main(){
             break;
         }
     }
-    for (int i = 1; i <= k; i++) b += a[i-1];
-    for (int i = k + 1; i <= n; i++) b += use;
-    lcs();
-    if (dp[n][n] != k) {
-        string ans;
-        for (int i = n - k + 1; i <= n; i++) ans += a[i-1];
-        for (int i = 1; i <= n - k; i++) ans += use;
-        b = ans;
-        lcs();
-        if (dp[n][n] == k) cout << ans << endl;
-        else cout << "WRONGANSWER" << endl;
-        return false;
-    }
-    cout << b << endl;
+    for (int i = n - k + 1; i <= n; i++) b += a[i-1];
+    for (int i = 1; i <= n - k; i++) b += use;
+    if (!lcs()) cout << "WRONGANSWER" << endl;
+    else cout << b << endl;
 }
