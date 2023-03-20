@@ -24,10 +24,6 @@ int main(){
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cin >> n >> k >> a;
-    if (n == k) {
-        cout << a << endl;
-        return false;
-    }
     if (k > n) {
         cout << "WRONGANSWER" << endl;
         return false;
