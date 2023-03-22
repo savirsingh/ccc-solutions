@@ -2,6 +2,54 @@
 // my current cpp template for ccc
 // (and for everything else too lol)
 
+#pragma GCC optimize("Ofast", "unroll-loops")
+#pragma optimize( "", off )
+#pragma optimize( "", on )
+#include <bits/stdc++.h>
+using namespace std;
+// macros
+#define int long long
+#define double long double
+#define bit32 int32_t
+#define del erase
+#define pb push_back
+#define str string
+#define scani(x) scanf("%lld", &x)
+#define scan(x) scanf("%s", &x)
+#define scanc(x) scanf("%c", &x)
+#define printi(x) printf("%lld", x);
+#define print(x) printf("%s", x);
+#define printc(x) printf("%c", x);
+#define pii pair<int, int>
+
+// fast i/o
+void read(int &number)
+{
+    bool negative = false;
+    register int c;
+
+    number = 0;
+    c = getchar();
+    if (c=='-')
+    {
+        negative = true;
+
+        c = getchar();
+    }
+    for (; (c>47 && c<58); c=getchar())
+        number = number *10 + c - 48;
+    if (negative)
+        number *= -1;
+}
+
+// all vars
+// add some variables here...
+
+// driver code
+bit32 main() {
+  
+}
+
 /*
  .----------------.  .----------------.  .----------------.  .----------------.  .----------------. 
 | .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
@@ -121,54 +169,6 @@ B##BG#B######B####B####BBBBBBBB#################################################
 ##BBB#&#&##&&&#########&&&##BG##BBBBBB####B#############BB#BB########G#BB####BBBBBBBBB#####BBBBGGGBGPPPPPPPPPPPPPPGGBBBBGGGGGGBBBBPPGBBBBBBBBBBGBB##BB###B####################################BBBBB##BBBBBBB#BBBBGGGBBBBBBBBBBGGGB#BBBBBB#BBBBBBBBGGGGBBBBBB####BBBBBGGGGPPGGGGGGGGGGGGGGGGGGGGGGGGGBBBB####
 #&##&###&#B#&&&&###&&&&##BB#BBBBB###BB#&###############BGB###B#B######&GPB#&#&&#B####BB##BBBBBBBBBBGGGGGPPP555YYY555PGGGGPPPGGGBBBGGGGBBB#BBBBB###############################B###B##############BB#####BBB####BB##B#BGBBBBBBBGGGBB#B##BBBBBBGGGGGGGPPPGGGGGBBGGGGGGGPPPPP5PPPGGGGGGGGGGGGGGGGGGBGGGBBBBB###
  */
-
-#pragma GCC optimize("Ofast", "unroll-loops")
-#pragma optimize( "", off )
-#pragma optimize( "", on )
-#include <bits/stdc++.h>
-using namespace std;
-// macros
-#define int long long
-#define double long double
-#define bit32 int32_t
-#define del erase
-#define pb push_back
-#define str string
-#define scani(x) scanf("%lld", &x)
-#define scan(x) scanf("%s", &x)
-#define scanc(x) scanf("%c", &x)
-#define printi(x) printf("%lld", x);
-#define print(x) printf("%s", x);
-#define printc(x) printf("%c", x);
-#define pii pair<int, int>
-
-// fast i/o
-void read(int &number)
-{
-    bool negative = false;
-    register int c;
-
-    number = 0;
-    c = getchar();
-    if (c=='-')
-    {
-        negative = true;
-
-        c = getchar();
-    }
-    for (; (c>47 && c<58); c=getchar())
-        number = number *10 + c - 48;
-    if (negative)
-        number *= -1;
-}
-
-// all vars
-// add some variables here...
-
-// driver code
-bit32 main() {
-  
-}
 
 // - savir
 /*
