@@ -21,7 +21,7 @@ using namespace std;
 #define print(x) printf("%s", x);
 #define printc(x) printf("%c", x);
 #define pii pair<int, int>
-#define scan(x) do{while((x=getchar())<'0'); for(x-='0'; '0'<=(_=getchar()); x=(x<<3)+(x<<1)+_-'0');}while(0)
+#define scanner(x) do{while((x=getchar())<'0'); for(x-='0'; '0'<=(_=getchar()); x=(x<<3)+(x<<1)+_-'0');}while(0)
 char _;
 
 // fast i/o
