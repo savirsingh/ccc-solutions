@@ -7,7 +7,7 @@
 using namespace std;
 
 const int MM = 5001;
-int n, k, rep[MM], dp[MM];
+int n, k, rep[MM];
 pii v[MM];
 
 int main(){
@@ -23,15 +23,31 @@ int main(){
         rep[v[i].second] = idx;
         if (i % k == 0) idx++;
     }
-    int lis = 0;
-    for (int i = 1; i <= n; i++) {
-        dp[i] = 1;
-        for (int j = 1; j < i; j++) {
-            if (rep[i] >= rep[j]) {
-                dp[i] = max(dp[i], dp[j] + 1);
-            }
+    vector<int> lis = {rep[1]};
+    for (int i = 2; i <= n; i++) {
+        if (rep[i] >= lis[lis.size()-1]) lis.push_back(rep[i]);
+        else {
+            int index = upper_bound(lis.begin(), lis.end(), rep[i]) - lis.begin();
+            lis[index] = rep[i];
         }
-        lis = max(lis, dp[i]);
     }
-    cout << n - lis << endl;
+    cout << n - lis.size() << endl;
 }
+
+// - savir
+/*
+       /\     /\
+      //\\___//\\
+      \_  o o  _/
+       /   ^   \
+      /  '---'  \
+     |__|_|_|__|
+     |  | | |  |
+     |__|_|_|__|
+    /'-./  | \.-'\
+   /   /   |   \   \
+  (`-/-`)  |  (`-/-`)
+   `"`"`"``|``"`"`"`
+          \|/
+           V
+*/
