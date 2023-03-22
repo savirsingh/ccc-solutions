@@ -45,7 +45,7 @@ void read(int &number)
 }
 
 // all vars
-// add some variables here...
+const int MM = 1e6 + 1;
 
 // driver code
 bit32 main() {
