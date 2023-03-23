@@ -31,7 +31,7 @@ int main(){
     char use = 'l';
     for (int i = 1; i <= n; i++) last[a[i-1]] = i;
     for (char j = 'a'; j <= 'z'; j++) {
-        if (last[j] <= k) {
+        if (last[j] == 0) {
             use = j;
             break;
         }
