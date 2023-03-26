@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/pacnw16a
+// 92/92
 
 #include <bits/stdc++.h>
 using namespace std;
