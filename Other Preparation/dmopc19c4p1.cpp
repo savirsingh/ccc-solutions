@@ -1,6 +1,6 @@
 // code by savir singh
 // https://dmoj.ca/problem/dmopc19c4p1
-// 100/100
+// 30/30
 
 #include <bits/stdc++.h>
 using namespace std;
