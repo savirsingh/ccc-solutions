@@ -2,9 +2,8 @@
 // my current cpp template for ccc
 // (and for everything else too lol)
 
-#pragma GCC optimize("Ofast", "unroll-loops")
-#pragma optimize( "", off )
-#pragma optimize( "", on )
+#pragma GCC optimize("O3,unroll-loops")
+#pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
 #include <bits/stdc++.h>
 using namespace std;
 #define int long long
