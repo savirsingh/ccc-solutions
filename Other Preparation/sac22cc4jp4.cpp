@@ -62,9 +62,9 @@ void read(int &number)
 }
 
 int32_t main() {
-    cin >> n >> k;
+    read(n); read(k);
     p.resize(n);
-    f(i, 0, n) cin >> p[i];
+    f(i, 0, n) read(p[i]);
     f(i, 0, 62) nxt.pb(vector<int>(n));
     f(i, 0, n) nxt[0][p[i]-1] = i;
     fe(i, 1, 61) {
