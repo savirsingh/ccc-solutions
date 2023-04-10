@@ -30,7 +30,7 @@ You can find all of these problems at https://dmoj.ca or https://cemc.uwaterloo.
 - CCC '17 Junior: 75/75
 - CCC '17 Senior: 60/75
 - CCC '16 Junior: 75/75
-- CCC '16 Senior: 45/75
+- CCC '16 Senior: 60/75
 - CCC '15 Junior: 75/75
 - CCC '15 Senior: 60/75
 - CCC '14 Junior: 75/75
