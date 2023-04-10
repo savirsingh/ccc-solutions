@@ -1,6 +1,6 @@
 # code by savir singh
 # https://dmoj.ca/problem/usaco22openb2
-# 110/110
+# 120/120
 
 n=int(input())
 p = []
