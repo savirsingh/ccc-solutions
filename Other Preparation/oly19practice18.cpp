@@ -1,4 +1,7 @@
 // code by savir singh
+// https://dmoj.ca/problem/oly19practice18
+// 100/100
+// Olympiads Homework
 
 #pragma GCC optimize("O3,unroll-loops")
 #pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
