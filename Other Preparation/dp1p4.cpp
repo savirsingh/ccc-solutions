@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/dp1p4
+// 50/50
 
 #pragma GCC optimize("O3,unroll-loops")
 #pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
