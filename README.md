@@ -58,7 +58,7 @@ You can find all of these problems at https://dmoj.ca or https://cemc.uwaterloo.
 - CCC '03 Junior: 30/75
 - CCC '03 Senior: 15/75
 - CCC '02 Junior: 30/75
-- CCC '02 Senior: None
+- CCC '02 Senior: 15/75
 - CCC '01 Junior: 15/75
 - CCC '01 Senior: 15/75
 - CCC '00 Junior: None
