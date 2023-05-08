@@ -1,4 +1,5 @@
 // code by savir singh
+// 50/50 on DMOJ
 
 #pragma GCC optimize("O3,unroll-loops")
 #pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
