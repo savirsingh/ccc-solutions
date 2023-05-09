@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/cco16p4
+// 25/25
 
 #include <iostream>
 using namespace std;
