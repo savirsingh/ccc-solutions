@@ -1,4 +1,8 @@
 // code by savir singh
+// https://dmoj.ca/problem/cpc21c1p2
+// 100/100
+
+// java version:
 
 import java.util.*;
 
