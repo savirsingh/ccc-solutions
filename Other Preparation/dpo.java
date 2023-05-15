@@ -1,4 +1,7 @@
 // code by savir singh
+// https://dmoj.ca/problem/dpo
+// 100/100
+// Olympiads Homework
 
 import java.util.Scanner;
 
