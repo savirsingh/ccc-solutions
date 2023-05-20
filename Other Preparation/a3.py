@@ -1,5 +1,5 @@
 # code by savir singh
-# https://dmoj.ca/problem/a1
+# https://dmoj.ca/problem/a3
 # 100/100
 
 t = int(input())
