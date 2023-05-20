@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/tc18summerb
+// 100/100
 
 #include <stdio.h>
 
