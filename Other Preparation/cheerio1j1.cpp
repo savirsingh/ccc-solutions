@@ -14,7 +14,6 @@ int32_t main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     string s; cin >> s;
-    set<char> vowels = {'a', 'e', 'i', 'o', 'u'};
     for (int i = 1; i < s.size(); i++) {
         if ((isvowel(s[i]) && isvowel(s[i-1])) || (!isvowel(s[i]) && !isvowel(s[i-1]))) {
             cout << "NO\n";return false;
