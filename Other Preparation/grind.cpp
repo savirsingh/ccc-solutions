@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/grind
+// 100/100
 
 // there are 2 ways, the array thingamajig and the priority queue thingy
 
