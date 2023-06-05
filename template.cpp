@@ -36,6 +36,26 @@ using namespace std;
 #define w(x) int x; cin>>x; while(x--)
 mt19937_64 rng(chrono::steady_clock::now().time_since_epoch().count());
 
+// fast i/o
+void read(int &number)
+{
+    bool negative = false;
+    register int c;
+
+    number = 0;
+    c = getchar();
+    if (c=='-')
+    {
+        negative = true;
+
+        c = getchar();
+    }
+    for (; (c>47 && c<58); c=getchar())
+        number = number *10 + c - 48;
+    if (negative)
+        number *= -1;
+}
+
 // declare all your vars here
 
 int32_t main() {
