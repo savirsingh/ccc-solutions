@@ -20,7 +20,6 @@ using namespace std;
 #define rall(v) (v).rbegin(), (v).rend()
 #define sz(a) (int) (a).size()
 #define rsz resize
-#define pii pair<int, int>
 #define eb emplace_back
 #define f(i,x,n) for(int i=x;i<n;i++)
 #define fe(i,x,n) for(int i=x;i<=n;i++)
