@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/canada21p3
+// 1/1
 
 #include <iostream>
 #include <vector>
