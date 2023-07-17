@@ -1,4 +1,7 @@
 // code by savir singh
+// coci20c5p2
+// 70/70
+// Po, oly homework
 
 #include <iostream>
 #include <stack>
