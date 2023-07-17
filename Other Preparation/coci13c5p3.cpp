@@ -1,4 +1,7 @@
 // code by savir singh
+// https://dmoj.ca/problem/coci13c5p3
+// 10/10
+// oly homework / stacks practice
 
 #include <iostream>
 #include <stack>
