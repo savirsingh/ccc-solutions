@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/crci08p2
+// 70/70
 
 #include <iostream>
 #include <set>
