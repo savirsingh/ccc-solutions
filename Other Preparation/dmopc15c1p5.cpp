@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/dmopc15c1p5
+// 100/100
 
 #include <iostream>
 using namespace std;
