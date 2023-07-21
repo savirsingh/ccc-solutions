@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/coci06c2p5
+// 110/110
 
 #include <iostream>
 using namespace std;
