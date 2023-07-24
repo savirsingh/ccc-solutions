@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/mwc15c2p2
+// 110/110
 
 #include <iostream>
 #include <stack>
