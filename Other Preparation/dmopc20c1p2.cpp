@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/dmopc20c1p2
+// 1/1
 
 #include <iostream>
 using namespace std;
