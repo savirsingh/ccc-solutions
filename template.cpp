@@ -64,9 +64,7 @@ inline void fastscan(int &num) {
 }
 
 bit32 main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(nullptr);
-
+    __
     // Your code here
 
     return 0;
