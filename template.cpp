@@ -7,6 +7,7 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
+
 // Compiler Optimizations
 #pragma GCC optimize("Ofast")
 #pragma GCC target("avx,avx2,fma")
