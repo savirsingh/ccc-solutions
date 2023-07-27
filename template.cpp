@@ -2,10 +2,16 @@
 // my current cpp template for ccc
 // (and for everything else too lol)
 
-#pragma GCC optimize("O3,unroll-loops")
-#pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
-#include <bits/stdc++.h>
+#include <iostream>
+#include <cstdio>
+#include <vector>
+#include <algorithm>
 using namespace std;
+// Compiler Optimizations
+#pragma GCC optimize("Ofast")
+#pragma GCC target("avx,avx2,fma")
+
+// Shorthand Macros
 #define int long long
 #define __ ios_base::sync_with_stdio(false);cin.tie(NULL);
 #define endl '\n'
@@ -35,29 +41,33 @@ using namespace std;
 #define w(x) int x; cin>>x; while(x--)
 mt19937_64 rng(chrono::steady_clock::now().time_since_epoch().count());
 
-// fast i/o
-void read(int &number)
-{
-    bool negative = false;
-    register int c;
+// Fast Input
+inline void fastscan(int &num) {
+    int c = getchar_unlocked();
+    num = 0;
+    bool neg = false;
 
-    number = 0;
-    c = getchar();
-    if (c=='-')
-    {
-        negative = true;
-
-        c = getchar();
+    // Handle negative numbers
+    if (c == '-') {
+        neg = true;
+        c = getchar_unlocked();
     }
-    for (; (c>47 && c<58); c=getchar())
-        number = number *10 + c - 48;
-    if (negative)
-        number *= -1;
+
+    // Process digits
+    while (c >= '0' && c <= '9') {
+        num = num * 10 + (c - '0');
+        c = getchar_unlocked();
+    }
+
+    if (neg)
+        num = -num;
 }
 
-// declare all your vars here
+bit32 main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
 
-int32_t main() {
-    __
-        // your code goes here
+    // Your code here
+
+    return 0;
 }
