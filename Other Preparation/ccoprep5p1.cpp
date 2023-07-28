@@ -85,7 +85,7 @@ inline int largestRec(const vector<int>& heights) {
 
 // Function to find the largest rectangular subgrid of 'F's
 inline int largestGrid(const vector<vector<char>>& grid) {
-    int n = grid.size();
+    int n = sz(grid);
     if (n == 0) return 0;
 
     int m = sz(grid[0]);
