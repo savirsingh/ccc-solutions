@@ -1,11 +1,11 @@
+// Note: Don't fully copy my template to avoid getting flagged or something on judges.
+// Feel free to use the template for ideas, etc.
+
 // code by savir singh
 // my current cpp template for ccc
 // (and for everything else too lol)
 
-#include <iostream>
-#include <cstdio>
-#include <vector>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
 // Compiler Optimizations
@@ -13,7 +13,8 @@ using namespace std;
 #pragma GCC target("avx,avx2,fma")
 
 // Shorthand Macros
-#define int long long
+#define bit32 int32_t
+#define int long long // comment out if unnecessary
 #define __ ios_base::sync_with_stdio(false);cin.tie(NULL);
 #define endl '\n'
 #define pb push_back
@@ -44,29 +45,31 @@ mt19937_64 rng(chrono::steady_clock::now().time_since_epoch().count());
 
 // Fast Input
 inline void fastscan(int &num) {
-    int c = getchar_unlocked();
+    int c = getchar();
     num = 0;
     bool neg = false;
 
     // Handle negative numbers
     if (c == '-') {
         neg = true;
-        c = getchar_unlocked();
+        c = getchar();
     }
 
     // Process digits
     while (c >= '0' && c <= '9') {
         num = num * 10 + (c - '0');
-        c = getchar_unlocked();
+        c = getchar();
     }
 
     if (neg)
         num = -num;
 }
 
+// == your template ends here, start coding!!! ==
+
 bit32 main() {
     __
-    // Your code here
+    // write your code here
 
     return 0;
 }
