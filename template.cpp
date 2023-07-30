@@ -71,9 +71,6 @@ void fastscan(T& num, Args&... args) {
 
 // == your template ends here, start coding!!! ==
 
-//vars
-int t, m;
-
 bit32 main() {
     __
     // write your code here
