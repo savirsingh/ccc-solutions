@@ -44,7 +44,8 @@ using namespace std;
 mt19937_64 rng(chrono::steady_clock::now().time_since_epoch().count());
 
 // Fast Input
-inline void fastscan(int &num) {
+template<typename T, typename... Args>
+void fastscan(T& num, Args&... args) {
     int c = getchar();
     num = 0;
     bool neg = false;
@@ -63,9 +64,15 @@ inline void fastscan(int &num) {
 
     if (neg)
         num = -num;
+
+    if constexpr (sizeof...(args) > 0)
+        fastscan(args...); // Recursively read the remaining arguments
 }
 
 // == your template ends here, start coding!!! ==
+
+//vars
+int t, m;
 
 bit32 main() {
     __
