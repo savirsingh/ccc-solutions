@@ -45,7 +45,7 @@ mt19937_64 rng(chrono::steady_clock::now().time_since_epoch().count());
 
 // Fast Input
 template<typename T, typename... Args>
-void fastscan(T& num, Args&... args) {
+inline void fastscan(T& num, Args&... args) {
     int c = getchar();
     num = 0;
     bool neg = false;
