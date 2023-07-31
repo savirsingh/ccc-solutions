@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/fhc15c2p1
+// 100/100
 
 // SOB spent half an hour debugging
 // I forgot to reset the orig deque
