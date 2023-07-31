@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/bts17p4
+// 100/100
 
 #include <bits/stdc++.h>
 using namespace std;
