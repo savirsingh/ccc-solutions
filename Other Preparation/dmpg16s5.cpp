@@ -3,7 +3,7 @@
 // 100/100
 
 // Pizza Bag
-// I solved this in C++ & C - C version is uncommented and C++ version is commented.
+// I solved this in C++ & C - C version is not commented out unlike the C++ one below.
 // For the C version I created my own impl of the monotonic queue without builtin deque.
 // This was the fastest GCC solution, and third-fastest solution overall (at the time I submitted this).
 
