@@ -1,4 +1,11 @@
 // code by savir singh
+// https://dmoj.ca/problem/dmpg16s5
+// 100/100
+
+// Pizza Bag
+// I solved this in C++ & C - C version is uncommented and C++ version is commented.
+// For the C version I created my own impl of the monotonic queue without builtin deque.
+// This was the fastest GCC solution, and third-fastest solution overall (at the time I submitted this).
 
 #pragma GCC optimize("O3")
 #include <stdio.h>
@@ -92,6 +99,8 @@ signed main() {
 
     return 0;
 }
+
+// solution using builtin deque:
 
 //#include <bits/stdc++.h>
 //using namespace std;
