@@ -1,3 +1,7 @@
+// code by savir singh
+// https://dmoj.ca/problem/dmpg15s5
+// 100/100
+
 #include <iostream>
 using namespace std;
 
