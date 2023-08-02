@@ -5,6 +5,7 @@
 // my current cpp template for ccc
 // (and for everything else too lol)
 
+// Include everything needed for CP
 #include <bits/stdc++.h>
 using namespace std;
 
