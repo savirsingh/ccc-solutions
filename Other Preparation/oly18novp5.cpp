@@ -1,4 +1,10 @@
 // code by savir singh
+// https://dmoj.ca/problem/oly18novp5
+// 100/100
+
+// Editorial:
+// Idea is just to use DP with monotonic/priority queue to get the minimum sum of numbers you need to remove.
+// And then subtract that minimum number from the overall sum of elements.
 
 #include <bits/stdc++.h>
 using namespace std;
