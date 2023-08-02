@@ -40,7 +40,7 @@ using namespace std;
 #define setbits(x) __builtin_popcountll(x)
 #define zrobits(x) __builtin_ctzll(x)
 #define ps(x,y) fixed<<setprecision(y)<<x
-#define w(x) int x; cin>>x; while(x--)
+#define w(x) int x; fastscan(x); while(x--)
 mt19937_64 rng(chrono::steady_clock::now().time_since_epoch().count());
 
 // Fast Input
@@ -69,10 +69,36 @@ inline void fastscan(T& num, Args&... args) {
         fastscan(args...); // Recursively read the remaining arguments
 }
 
+// Fast Output For Integers
+inline void fastprint(int num, const string& endline = "\n") {
+    if (num < 0) {
+        putchar('-');
+        num = -num;
+    }
+    char buffer[20];
+    int idx = 19;
+    buffer[idx--] = '\0';
+
+    do {
+        buffer[idx--] = static_cast<char>('0' + num % 10);
+        num /= 10;
+    } while (num > 0);
+
+    fputs(&buffer[idx + 1], stdout);
+    fputs(endline.c_str(), stdout);
+}
+
+// Fast Output for Strings
+inline void fastprint(const string& s, const string& endline = "\n") {
+    fputs(s.c_str(), stdout);
+    fputs(endline.c_str(), stdout);
+}
+
 // == your template ends here, start coding!!! ==
 
 bit32 main() {
     __
+
     // write your code here
 
     return 0;
