@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/coci10c5p5
+// 15/15
 
 #include <bits/stdc++.h>
 using namespace std;
