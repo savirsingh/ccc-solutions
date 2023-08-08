@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/hopscotch2
+// 15/15
 
 // Include everything needed for CP
 #include <bits/stdc++.h>
