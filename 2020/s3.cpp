@@ -1,6 +1,16 @@
 // code by savir singh
 // 15/15 on CCC Grader, 20/20 on DMOJ
 
+// Idea:
+// Basically, you just precompute the frequencies of the string n of length N and
+// track the frequencies of a sliding window of length N in the string h. In the
+// sliding window, you check if the frequencies match - if they match then it is a
+// permutation of the string n. If it is a permutation, you can double hash (to avoid
+// a collision) the substring and push it into a set (unordered for optimization, since
+// the order doesn't need to be preserved here). Finally, you just output the set size,
+// because the size represents the number of sliding windows that were permutations of
+// the string n. Nice and fun problem overall! Learned string hashing to solve this one.
+
 // Include everything needed for CP
 #include <bits/stdc++.h>
 using namespace std;
