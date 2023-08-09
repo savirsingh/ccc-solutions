@@ -1,4 +1,5 @@
 // code by savir singh
+// 15/15 on CCC Grader, 20/20 on DMOJ
 
 // Include everything needed for CP
 #include <bits/stdc++.h>
