@@ -102,6 +102,7 @@ inline void fastprint(const string& s, const string& endline = "\n") {
 
 // == your template ends here, start coding!!! ==
 
+//vars
 const int mm = 1e6 + 1;
 string s, t;
 int n, m, h[mm], p[mm], pt = 0, thash, A = 10007;
