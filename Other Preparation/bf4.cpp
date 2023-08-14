@@ -1,4 +1,14 @@
 // code by savir singh
+// https://dmoj.ca/problem/bf4
+// 22/22
+
+// String Finding
+// This problem really illustrates how a brute force
+// solution can become faster using string hashing.
+// The brute force solution is to simply go through all
+// substrings and then check which ones are equal to T.
+// The optimized solution is just to use string hashing
+// so that we can compare substrings in O(1) time.
 
 // Include everything needed for CP
 #include <bits/stdc++.h>
