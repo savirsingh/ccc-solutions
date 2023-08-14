@@ -1,4 +1,10 @@
 // code by savir singh
+// https://dmoj.ca/problem/btoi07p3
+// 13/13
+
+// Sound of Silence
+// Simple problem, all you need to do is maintain 2 mono queues.
+// Then, you have to output all indices where max - min <= C.
 
 // Include everything needed for CP
 #include <bits/stdc++.h>
