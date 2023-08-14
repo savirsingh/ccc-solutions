@@ -1,4 +1,11 @@
 // code by savir singh
+// https://dmoj.ca/problem/mnyc17p3
+// 100/100
+
+// Hurontario
+// Very basic idea, just try all possible prefixes/suffixes.
+// Hash them, and then compare in O(1) time for a linear
+// time complexity.
 
 // Include everything needed for CP
 #include <bits/stdc++.h>
