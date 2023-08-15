@@ -2,6 +2,8 @@
 // https://dmoj.ca/problem/vmss7wc15c2p2
 // 100/100
 
+// Solved in linear time using Manacher's algorithm.
+
 // Include everything needed for CP
 #include <bits/stdc++.h>
 using namespace std;
