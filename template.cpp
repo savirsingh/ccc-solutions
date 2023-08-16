@@ -47,60 +47,62 @@ mt19937_64 rng(chrono::steady_clock::now().time_since_epoch().count());
 // Fast Input
 template<typename T, typename... Args>
 inline void fastscan(T& num, Args&... args) {
-    int c = getchar();
-    num = 0;
-    bool neg = false;
+        int c = getchar();
+        num = 0;
+        bool neg = false;
 
-    // Handle negative numbers
-    if (c == '-') {
-        neg = true;
-        c = getchar();
-    }
+        // Handle negative numbers
+        if (c == '-') {
+                neg = true;
+                c = getchar();
+        }
 
-    // Process digits
-    while (c >= '0' && c <= '9') {
-        num = num * 10 + (c - '0');
-        c = getchar();
-    }
+        // Process digits
+        while (c >= '0' && c <= '9') {
+                num = num * 10 + (c - '0');
+                c = getchar();
+        }
 
-    if (neg)
-        num = -num;
+        if (neg)
+                num = -num;
 
-    if constexpr (sizeof...(args) > 0)
-        fastscan(args...); // Recursively read the remaining arguments
+        if constexpr (sizeof...(args) > 0)
+                fastscan(args...); // Recursively read the remaining arguments
 }
 
 // Fast Output For Integers
 inline void fastprint(int num, const string& endline = "\n") {
-    if (num < 0) {
-        putchar('-');
-        num = -num;
-    }
-    char buffer[20];
-    int idx = 19;
-    buffer[idx--] = '\0';
+        if (num < 0) {
+                putchar('-');
+                num = -num;
+        }
+        char buffer[20];
+        int idx = 19;
+        buffer[idx--] = '\0';
 
-    do {
-        buffer[idx--] = static_cast<char>('0' + num % 10);
-        num /= 10;
-    } while (num > 0);
+        do {
+                buffer[idx--] = static_cast<char>('0' + num % 10);
+                num /= 10;
+        }while (num > 0);
 
-    fputs(&buffer[idx + 1], stdout);
-    fputs(endline.c_str(), stdout);
+        fputs(&buffer[idx + 1], stdout);
+        fputs(endline.c_str(), stdout);
 }
 
 // Fast Output for Strings
 inline void fastprint(const string& s, const string& endline = "\n") {
-    fputs(s.c_str(), stdout);
-    fputs(endline.c_str(), stdout);
+        fputs(s.c_str(), stdout);
+        fputs(endline.c_str(), stdout);
 }
 
 // == your template ends here, start coding!!! ==
 
+//vars
+
 bit32 main() {
-    __
+        __
 
-    // write your code here
+        // write your code here
 
-    return 0;
+        return 0;
 }
