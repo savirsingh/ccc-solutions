@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/dmopc16c4p5
+// 100/100
 
 // Include everything needed for CP
 #include <bits/stdc++.h>
