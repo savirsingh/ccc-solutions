@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/xors
+// 10/10
 
 // Include everything needed for CP
 #include <bits/stdc++.h>
