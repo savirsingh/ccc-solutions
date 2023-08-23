@@ -121,13 +121,6 @@ inline void ins(node* cur, const vi& fmy) {
         }
 }
 
-inline void del(node* cur) {
-        for (auto& pa : cur->child) {
-                del(pa.second);
-        }
-        delete cur;
-}
-
 inline int cnt(node* cur) {
         int c = (cur->mx) % mod;
         for (auto& pa : cur->child) {
@@ -159,7 +152,6 @@ bit32 main() {
                         ins(root, fmy);
                 }
                 fastprint(cnt(root) + 1);
-                del(root);
         }
 
         return 0;
