@@ -2,6 +2,25 @@
 // https://dmoj.ca/problem/dmopc22c5p2
 // 100/100
 
+// I'm very impressed to have solved this without the editorial.
+// The trick was to solve the problem by hand first and then implementing.
+// (use this trick for all ad hoc problems - it helps!)
+// To solve this, you notice that there are N*(N+1)/2 total subarrays.
+// This means we will have |X-Y| = 0 when the total subarrays count is even
+// and we will have |X-Y| = 1 when the total subarrays count is odd.
+// Next, you have to keep filling the array with ones from left to right
+// until you are about to have too many nonnegative sum subarrays. Once you
+// reach this point, if you have the necessary X amount of nonnegative sum
+// subarrays, you stop and fill the remainder of the array with some large
+// negative number to avoid having extra nonnegative sum subarrays. If you
+// do not have the required X amount of nonnegative sum subarrays yet, but
+// adding another one will mean you will have too many such subarrays, you
+// have to carefully choose a negative number to add after the ones. Basically,
+// you just need to ensure this negative number adds just enough nonnegative sum
+// subarrays to make the total = X. Finally, fill the remainder of the array with
+// the large negative number like before to ensure you don't have extras.
+// I actually kind of like ad hoc problems!
+
 // Include everything needed for CP
 #include <bits/stdc++.h>
 using namespace std;
