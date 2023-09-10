@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/cco11p4
+// 2/2
 
 // Include everything needed for CP
 #include <bits/stdc++.h>
