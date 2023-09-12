@@ -1,4 +1,5 @@
 // code by savir singh
+// just a slightly shorter and more readable template.
 
 #include <bits/stdc++.h>
 using namespace std;
