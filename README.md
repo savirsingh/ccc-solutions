@@ -18,7 +18,7 @@ You can find all of these problems at https://dmoj.ca or https://cemc.uwaterloo.
 - CCC '23 Junior: 66/75
 - CCC '23 Senior: 60/75
 - CCC '22 Junior: 66/75
-- CCC '22 Senior: 45/75
+- CCC '22 Senior: 60/75
 - CCC '21 Junior: 75/75
 - CCC '21 Senior: 60/75
 - CCC '20 Junior: 75/75
