@@ -2,6 +2,9 @@
 // https://dmoj.ca/problem/dmopc17c3p3
 // 100/100
 
+// throughout this code, I check if element k is in a subset by checking
+// if the k-th bit of the subset (represented by an int) is set.
+
 #include <bits/stdc++.h>
 using namespace std;
 
