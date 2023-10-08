@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/ioi94p1
+// 6/6
 
 #include <bits/stdc++.h>
 using namespace std;
