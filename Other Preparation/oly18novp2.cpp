@@ -1,4 +1,7 @@
 // code by savir singh
+// https://dmoj.ca/problem/oly18novp2
+// 100/100
+// Olympiads Homework
 
 // Include everything needed for CP
 #include <bits/stdc++.h>
