@@ -1,4 +1,6 @@
 # code by savir singh
+# https://dmoj.ca/problem/toosimple
+# 100/100
 
 val=True
 forh = val + val
