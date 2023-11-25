@@ -20,7 +20,7 @@ w=open('par.txt', 'a', encoding='utf-8')
 for i in range(1, 21476):
     a = calc(prev, pre, n * i)
     print(a)
-    #takes forever to run
+    #takes forever (~20 min) to run
     #this is just to know where we're at:
     if i == 100:
         print("100")
