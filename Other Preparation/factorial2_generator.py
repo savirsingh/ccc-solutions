@@ -12,6 +12,9 @@ n = 200000
 prev = 1
 pre = 0
 
+#stri.txt is the 'b' values
+#rem.txt is the remainders
+#par.txt is the remainder after div. by 3
 f=open('stri.txt', 'a', encoding='utf-8')
 m=open('rem.txt', 'a', encoding='utf-8')
 w=open('par.txt', 'a', encoding='utf-8')
