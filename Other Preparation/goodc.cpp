@@ -1,4 +1,6 @@
 // code by savir singh
+// https://dmoj.ca/problem/goodc
+// 6/6
 
 #include <bits/stdc++.h>
 using namespace std;
