@@ -2,6 +2,11 @@
 // https://dmoj.ca/problem/goodc
 // 6/6
 
+//we can make a ds that maintains the problems in sorted order based on difficulty. each problem can be represented as a pair (balloons, problem #).
+//Then, after each query, we should be able to push in a new pair for the problem in question (balloons + 1, problem #) and the set will reorder itself.
+//only thing different from std::set is there cannot be two pairs (x, y) and (z, y) where the second value (problem #) is equal.
+//i slightly modified builtins to make my new dream ds!!!
+
 #include <bits/stdc++.h>
 using namespace std;
 #define pii pair<int, int>
