@@ -2,6 +2,8 @@
 
 Canadian Computing Competition solutions in C++, Python, Java. I started solving these problems in December 2021 (in Grade 9).
 
+Note: This solution repo is incomplete. There are about 100 solutions that are not stored in here. I've solved about ~550 problems in total :)
+
 This repository contains all of my solutions to CCC problems from 2000 to 2023, as well as other fun problems to get you thinking (stored [right here](https://github.com/savirsingh/ccc-solutions/tree/main/Other%20Preparation)).
 
 I'm most comfortable with Python and C++. C++ is now my main programming language for competitive programming.
