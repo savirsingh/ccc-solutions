@@ -18,6 +18,7 @@ You can find all of these problems at https://dmoj.ca or https://cemc.uwaterloo.
 - CCC '24: 37/75, Senior (better but still a throw in my opinion)
 
 ### Problem Marks So Far (I haven't completed most problems yet):
+- CCC '24 Senior: 52/75
 - CCC '23 Junior: 66/75
 - CCC '23 Senior: 60/75
 - CCC '22 Junior: 66/75
